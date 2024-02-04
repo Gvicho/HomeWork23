@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgView"
+            android:layout_width="150dp"
+            android:layout_height="210dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Image.CornerSize"
+            />
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:src="@drawable/ic_heart__11"
+            android:background="@drawable/heart_button_shape"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/shmotkis_photo" />
+    </FrameLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/product_s_name"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/name_style"/>
+
+    <TextView
+        android:id="@+id/tvPrise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_120"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/price_style"/>
+
+</LinearLayout>

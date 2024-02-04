@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HomeWork21</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_s_name">Product\'s name</string>
+    <string name="_120">$120</string>
+    <string name="not_found_items">Not Found Items</string>
+    <string name="shmotkis_photo">Shmotkis photo</string>
+</resources>
